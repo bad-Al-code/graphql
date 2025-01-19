@@ -1,0 +1,25 @@
+{
+    "name": "graphql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon server/index.js",
+        "format": "prettier . --write",
+        "prepare": "husky"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@apollo/server": "^4.11.3",
+        "graphql": "^16.10.0"
+    },
+    "devDependencies": {
+        "husky": "^9.1.7",
+        "lint-staged": "^15.4.1",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.4.2"
+    }
+}
