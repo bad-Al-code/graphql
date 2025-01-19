@@ -6,8 +6,8 @@ import express from 'express';
 import http from 'http';
 import cors from 'cors';
 
-import mergedResolvers from './resolvers/index.js';
-import mergedTypeDefs from './types/index.js';
+import mergedResolvers from './schema/resolvers/index.js';
+import mergedTypeDefs from './schema/types/index.js';
 import { connectDB } from './db/db.js';
 
 const app = express();
